@@ -1,0 +1,99 @@
+table{
+	position: top;
+	font-family: Arial, Helvetica, sans-serif;
+	left: 50%;
+	top: 50%;
+	width: 60%;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+
+}
+tr:nth-child(even) {background-color: #ede8dc;}
+th{
+	background-color: #a19d91;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: thick;
+	color: white;
+}
+th, td{
+	text-align: center;
+	border: 1px solid black;
+}
+td{
+	padding: 5px 5px 5px 5px;
+}
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #3f3e3b; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+	float: left;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #3f3e3b;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.eyantraLogo{
+	margin-left: 65px;
+	align-self: center;
+}
+#map{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
